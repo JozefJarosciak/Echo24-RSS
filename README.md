@@ -1,4 +1,4 @@
-DennikN - RSS News Reader for DennikN.sk newspaper
+DennikN - Android RSS News Reader for DennikN.sk newspaper
 ==================
 
 Light and modern Android feed reader, based on Sparse rss.
