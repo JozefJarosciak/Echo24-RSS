@@ -1,7 +1,6 @@
 /**
- * Flym - DenníkN
- *
- * Copyright (c) 2012-2015 Frederic Julian, Jozef Jaroščiak
+ * Flym - Copyright (c) 2012-2014 Frederic Julian
+ * DenníkN related changes - Copyright (c) 2015 Jozef Jaroščiak
  *
  *     This program is free software: you can redistribute it and/or modify
  *     it under the terms of the GNU General Public License as published by

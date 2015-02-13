@@ -1,7 +1,6 @@
 /**
- * Flym - DenníkN
- *
- * Copyright (c) 2012-2015 Frederic Julian, Jozef Jaroščiak 
+ * Flym - Copyright (c) 2012-2014 Frederic Julian
+ * DenníkN related changes - Copyright (c) 2015 Jozef Jaroščiak
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -35,7 +34,7 @@ import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.widget.Toolbar;
-import android.util.Log;
+//import android.util.Log;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
