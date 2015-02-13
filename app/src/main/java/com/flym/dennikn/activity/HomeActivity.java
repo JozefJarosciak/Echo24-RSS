@@ -357,8 +357,9 @@ public class HomeActivity extends BaseActivity implements LoaderManager.LoaderCa
             FeedDataContentProvider.addFeed(this, "https://dennikn.sk/ekonomika/feed/", "Ekonomika", true);
             FeedDataContentProvider.addFeed(this, "https://dennikn.sk/kultura/feed/", "Kultúra", true);
             FeedDataContentProvider.addFeed(this, "https://dennikn.sk/komentare/feed/", "Komentáre", true);
-//            FeedDataContentProvider.addFeed(this, "https://dennikn.sk/shooty/feed/", "Shooty", true);
+            FeedDataContentProvider.addFeed(this, "https://dennikn.sk/veda/feed/", "Veda", true);
             FeedDataContentProvider.addFeed(this, "https://dennikn.sk/blog/feed/", "Blogy", true);
+//            FeedDataContentProvider.addFeed(this, "https://dennikn.sk/shooty/feed/", "Shooty", true);
 
 /*
           AlertDialog.Builder builder = new AlertDialog.Builder(this);
