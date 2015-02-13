@@ -2,6 +2,7 @@ DennikN - Android RSS News Reader for DennikN.sk newspaper
 ==================
 
 DennikN is an unofficial Android RSS feed reader for Slovak online newspaper: DennikN.sk.
+
 DennikN je neoficialna Android applikacia pre citanie RSS zdroja Slovenskych online novin: DennikN.sk.
 
 --
