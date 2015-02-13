@@ -13,17 +13,10 @@ Coming soon
 # Screenshots:
 Coming soon
 
-# Copyright
-This light and modern Android feed reader is based on open source project Flym created by Frederic Julian, originally based on Sparse rss. 
+# Copyright & License
+DennikN RSS feed reader is based on open source project Flym created by Frederic Julian, originally based on Sparse rss. This project is released under GNU GENERAL PUBLIC LICENSE - Version 3
 
-# License
-This project is released under GNU GENERAL PUBLIC LICENSE - Version 3
-
-# Support
+# Author / Contact / Support
+@JozefJarosciak
+Contact: https://www.linkedin.com/in/jozefj
 Having trouble? Contact me, I'll try to help as much as I can.
-
-# Author / Contact
-@JozefJarosciak 
-ETX Software Inc. (http://www.etx.ca)
-Blog: http://www.joe0.com
-LinkedIn Contact: https://www.linkedin.com/in/jozefj
