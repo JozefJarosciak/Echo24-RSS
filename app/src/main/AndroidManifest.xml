@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.flym.dennikn"
+    package="com.flym.echo24"
     android:installLocation="auto">
 
     <uses-permission android:name="android.permission.INTERNET" />
@@ -10,26 +10,26 @@
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <permission
-        android:name="com.flym.dennikn.provider.WRITE_PERMISSION"
+        android:name="com.flym.echo24.provider.WRITE_PERMISSION"
         android:protectionLevel="signature" />
 
     <application
-        android:name="com.flym.dennikn.MainApplication"
+        android:name="com.flym.echo24.MainApplication"
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/Theme.Light">
-        <service android:name="com.flym.dennikn.service.RefreshService" />
-        <service android:name="com.flym.dennikn.service.FetcherService" />
+        <service android:name="com.flym.echo24.service.RefreshService" />
+        <service android:name="com.flym.echo24.service.FetcherService" />
 
         <provider
-            android:name="com.flym.dennikn.provider.FeedDataContentProvider"
-            android:authorities="com.flym.dennikn.provider.FeedData"
+            android:name="com.flym.echo24.provider.FeedDataContentProvider"
+            android:authorities="com.flym.echo24.provider.FeedData"
             android:exported="true"
-            android:writePermission="com.flym.dennikn.provider.WRITE_PERMISSION" />
+            android:writePermission="com.flym.echo24.provider.WRITE_PERMISSION" />
 
         <activity
-            android:name="com.flym.dennikn.activity.HomeActivity"
+            android:name="com.flym.echo24.activity.HomeActivity"
             android:label="@string/app_name"
             android:launchMode="singleTask">
             <intent-filter>
@@ -39,19 +39,19 @@
         </activity>
 
         <activity
-            android:name="com.flym.dennikn.activity.AddGoogleNewsActivity"
+            android:name="com.flym.echo24.activity.AddGoogleNewsActivity"
             android:label="@string/google_news_title"
             android:launchMode="singleTask" />
         <activity
-            android:name="com.flym.dennikn.activity.AboutActivity"
+            android:name="com.flym.echo24.activity.AboutActivity"
             android:label="@string/about_flym"
             android:launchMode="singleTask" />
         <activity
-            android:name="com.flym.dennikn.activity.EditFeedsListActivity"
+            android:name="com.flym.echo24.activity.EditFeedsListActivity"
             android:label="@string/feeds"
             android:launchMode="singleTask" />
         <activity
-            android:name="com.flym.dennikn.activity.EntryActivity"
+            android:name="com.flym.echo24.activity.EntryActivity"
             android:configChanges="orientation|screenSize"
             android:launchMode="singleTask">
             <intent-filter>
@@ -61,15 +61,15 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.flym.dennikn.activity.GeneralPrefsActivity"
+            android:name="com.flym.echo24.activity.GeneralPrefsActivity"
             android:label="@string/menu_settings"
             android:launchMode="singleTask" />
-        <activity android:name="com.flym.dennikn.widget.WidgetConfigActivity">
+        <activity android:name="com.flym.echo24.widget.WidgetConfigActivity">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />
             </intent-filter>
         </activity>
-        <activity android:name="com.flym.dennikn.activity.EditFeedActivity">
+        <activity android:name="com.flym.echo24.activity.EditFeedActivity">
             <intent-filter>
                 <action android:name="android.intent.action.EDIT" />
                 <category android:name="android.intent.category.DEFAULT" />
@@ -87,7 +87,7 @@
             </intent-filter>
         </activity>
 
-        <receiver android:name="com.flym.dennikn.widget.WidgetProvider">
+        <receiver android:name="com.flym.echo24.widget.WidgetProvider">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
             </intent-filter>
@@ -97,7 +97,7 @@
                 android:resource="@xml/widgetinfo" />
         </receiver>
 
-        <receiver android:name="com.flym.dennikn.widget.TickerWidgetProvider">
+        <receiver android:name="com.flym.echo24.widget.TickerWidgetProvider">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
             </intent-filter>
@@ -108,22 +108,22 @@
         </receiver>
 
         <service
-            android:name="com.flym.dennikn.widget.WidgetService"
+            android:name="com.flym.echo24.widget.WidgetService"
             android:permission="android.permission.BIND_REMOTEVIEWS" />
 
-        <service android:name="com.flym.dennikn.widget.TickerWidgetService" />
+        <service android:name="com.flym.echo24.widget.TickerWidgetService" />
 
-        <receiver android:name="com.flym.dennikn.receiver.BootCompletedBroadcastReceiver">
+        <receiver android:name="com.flym.echo24.receiver.BootCompletedBroadcastReceiver">
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
             </intent-filter>
         </receiver>
-        <receiver android:name="com.flym.dennikn.receiver.ConnectionChangeReceiver">
+        <receiver android:name="com.flym.echo24.receiver.ConnectionChangeReceiver">
             <intent-filter>
                 <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
             </intent-filter>
         </receiver>
-        <receiver android:name="com.flym.dennikn.service.RefreshService$RefreshAlarmReceiver" />
+        <receiver android:name="com.flym.echo24.service.RefreshService$RefreshAlarmReceiver" />
     </application>
 
 </manifest>
