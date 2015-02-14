@@ -1,12 +1,28 @@
-# DenníkN RSS
-Je neoficiálna Android aplikácia/čítačka určená na čítanie RSS zdroja Slovenských online novín: DennikN.sk.
+# DENNIKN ANDROID RSS ČÍTAČKA
+Je neoficiálna Android aplikácia určená na čítanie RSS zdroja Slovenských online novín Denník N www.DennikN.sk. 
+Aplikácia je publikovaná úplne zdarma (a bez reklamy) a šírená ako open source. 
+DennikN RSS aplikácia informuje uživateľa o nových článkoch uverejnených v novinách Denník N, pomocou verejne dostupného DennikN.sk RSS kanálu. Články sa zobrazujú plne optimalizovaným spôsobom na všetkých zariadeniach s inštalovaným operačným systémom Android (telefóny, tablety a televízie).
+
+# Vlastnosti:
+- Integrovaný DennikN.sk RSS kanál
+- Možnosť výberu svetlej a tmavej témy - farby pozadia
+- Čítanie v režime offline - vrátane obrázkov
+- Články so skráteným obsahom sa dajú načítať v plnom znení 
+- Možnosť označovať a kategorizovať obľúbené články 
+- Možnosť označovať články ako prečítané
+- Možnosť čítať články na celej ploche obrazovky
+- Možnosť meniť veľkosť písma
+- Možnosť upozornenia na nové články pomocou zvuku či svetelneho oznamenia
+- Vyhľadávanie v článkoch
+- 2 widgety
 
 # Dôležité
-DenníkN Android RSS Čítačka je aplikácia podobná funkčnosťou Denniku N, avšak aplikácia nie je oficiálne či úradne schválená, podporovaná, pridružená, spojená, autorizovaná alebo schválená spoločnosťou N Press, sro, Wilsonova 1, 811 07 Bratislava. Aplikácia je čítačka zdarma pristupneho RSS zdroja poskytovaného verejne na webových stránkach Denníka N,  na adrese: URL: https://dennikn.sk/rss-2/
+DennikN Android RSS Čítačka je aplikácia podobná funkčnosťou Denniku N, avšak aplikácia nie je oficiálne či úradne schválená, podporovaná, pridružená, spojená, autorizovaná alebo schválená spoločnosťou N Press, sro, Wilsonova 1, 811 07 Bratislava. Aplikácia je čítačka zdarma pristupneho RSS zdroja poskytovaného verejne na webových stránkach Denníka N,  na adrese: URL: https://dennikn.sk/rss-2/
 
 # Copyright & Licencia:
 DennikN RSS čítačka je založená na open source projekte FLYM (Frederic Julian), pôvodne založená na Sparse rss projekte.
 Tento projekt je open source pod GNU General Public Licenciou verzie 3.
+Source code je dostupný na GitHub: https://github.com/JozefJarosciak/DennikN-RSS
 
 # Google PlayStore - Linka na stiahnutie & obrazky:
 https://play.google.com/store/apps/details?id=com.flym.dennikn
