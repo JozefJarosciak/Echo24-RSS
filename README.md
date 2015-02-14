@@ -19,10 +19,11 @@ Echo24 RSS aplikace informuje uživatele o nových článcích zveřejněných v
 
 
 # Důležité
-Echo24 Android RSS Čtečka je aplikace podobná funkčností deníky N , avšak aplikace není oficiálně či úředně schválena, podporovaná , přidružená , spojená , autorizovaná nebo schválena společností N Press sro, Wilsonova 1 , 811 07 Bratislava . Aplikace je čtečka zdarma přístupný RSS zdroje poskytovaného veřejně na webových stránkách Deníku N , na adrese : URL : https://echo.sk/rss-2/
+Echo24 Android RSS Čtečka je aplikace podobná funkčností Echo.cz, avšak aplikace není oficiálně či úředně schválena, podporovaná , přidružená , spojená , autorizovaná nebo schválena společností Echo Media a.s.
+Malostranské nám. 203/14, 118 00 Praha, Malá Strana, Česká republika. Aplikace je čtečka zdarma přístupného RSS zdroje poskytovaného veřejně na webových stránkách Echo24.cy na adrese: https://echo.sk/rss-2/
 
 # Copyright & Licencia:
-Echo24 RSS čtečka je založena na open source projektu Flym ( Frederic Julian ) , původně založená na Sparse rss projektu .
+Echo24 RSS čtečka je založena na open source projektu Flym ( Frederic Julian ), původně založená na Sparse rss projektu .
 Tento projekt je open source pod GNU General Public Licencí verze 3 .
 Source code je dostupný na GitHub : https://github.com/JozefJarosciak/Echo24-RSS
 
