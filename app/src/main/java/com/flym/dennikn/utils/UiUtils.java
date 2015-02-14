@@ -24,7 +24,7 @@ import android.content.res.TypedArray;
 import android.database.Cursor;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
-//import android.os.PowerManager;
+import android.os.PowerManager;
 import android.support.v4.util.LongSparseArray;
 import android.util.TypedValue;
 import android.view.View;

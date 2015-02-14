@@ -46,7 +46,7 @@ import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 import android.widget.ListView;
 import android.widget.TextView;
-//import android.widget.Toast;
+import android.widget.Toast;
 
 import com.melnykov.fab.FloatingActionButton;
 
