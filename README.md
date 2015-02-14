@@ -24,7 +24,7 @@ Malostranské nám. 203/14, 118 00 Praha, Malá Strana, Česká republika. Aplik
 
 # Copyright & Licencia:
 Echo24 RSS čtečka je založena na open source projektu Flym ( Frederic Julian ), původně založená na Sparse rss projektu .
-Tento projekt je open source pod GNU General Public Licencí verze 3 .
+Projekt je open source pod GNU General Public Licencí verze 3 .
 Source code je dostupný na GitHub : https://github.com/JozefJarosciak/Echo24-RSS
 
 # Google PlayStore - Linka na stiahnutie & obrazky:
