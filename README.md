@@ -1,4 +1,4 @@
-# ECHO24 ANDROID RSS ČÍTAČKA
+# ECHO24 ANDROID RSS ČTEČKA
 Echo24 RSS - je neoficiální Android aplikace určená ke čtení RSS zdroje online novin Echo 24 (www.echo24.cz).
 
 Aplikace je publikována zcela zdarma (a bez reklamy) a šířena jako open source .
