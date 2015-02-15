@@ -64,7 +64,7 @@ import com.flym.echo24.utils.PrefUtils;
 
 public class WidgetConfigFragment extends PreferenceFragment {
 
-    public static final String ARG_WIDGET_ID = "ARG_WIDGET_ID";
+    public static final String ARG_WIDGET_ID = "ARG_WIDGET_ID_Echo24";
     private static final String NAME_COLUMN = "ifnull(" + FeedColumns.NAME + ',' + FeedColumns.URL + ") as title";
 
     @Override
